@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Doodax World Clock | Live Global Time Dashboard & Converter</title>
+    <meta name="title" content="Doodax World Clock | Live Global Time Dashboard & Converter">
+    <meta name="description" content="Doodax is the ultimate real-time world clock dashboard. Track live time for New York, London, Tokyo, and Dubai with atomic precision on a stunning animated cosmic interface.">
+    <meta name="keywords" content="doodax, world clock, live time, global time, time zones, atomic clock, current time london, current time new york, remote work tools, digital nomad tools" />
+    <meta name="author" content="HSINI MOHAMED">
+    <link rel="canonical" href="https://doodax.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doodax.com/">
+    <meta property="og:title" content="Doodax World Clock | Live Global Time Dashboard">
+    <meta property="og:description" content="Track real-time clocks for London, New York, Tokyo, and more on a stunning, animated cosmic dashboard. The ultimate tool for remote teams and travelers.">
+    <meta property="og:image" content="https://doodax.com/social-preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://doodax.com/">
+    <meta property="twitter:title" content="Doodax World Clock | Live Global Time Dashboard">
+    <meta property="twitter:description" content="Track real-time clocks for London, New York, Tokyo, and more on a stunning, animated cosmic dashboard.">
+    <meta property="twitter:image" content="https://doodax.com/social-preview.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'spin-slow': 'spin 20s linear infinite',
+            },
+            typography: {
+              DEFAULT: {
+                css: {
+                  color: '#d1d5db',
+                  a: {
+                    color: '#f472b6',
+                    '&:hover': {
+                      color: '#e879f9',
+                    },
+                  },
+                  h1: { color: '#ffffff' },
+                  h2: { color: '#ffffff' },
+                  h3: { color: '#ffffff' },
+                  h4: { color: '#ffffff' },
+                  strong: { color: '#ffffff' },
+                },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react/": "https://aistudiocdn.com/react@^19.2.0/"
+      }
+    }
+    </script>
+</head>
+<body class="bg-[#0f0c29] text-white overflow-x-hidden antialiased selection:bg-pink-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
