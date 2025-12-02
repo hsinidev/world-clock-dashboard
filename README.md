@@ -9,7 +9,7 @@ Welcome to the **Doodax World Clock Dashboard**, a high-performance, SEO-optimiz
 ## 🚀 Live Demo
 
 Experience the cosmic time synchronization live:
-**[➡️ View Live Demo at doodax.com](https://doodax.com)** _(Opens in a new tab)_
+**[➡️ View Live Demo at doodax.com](https://doodax.com/tools/cosmic-world-clock-dashboard/index.html)** _(Opens in a new tab)_
 
 ---
 
