@@ -8,7 +8,7 @@
 A high-performance, SEO-optimized World Clock Dashboard built with React 18, TypeScript, and Tailwind CSS. This application provides real-time synchronization of global time zones using the WorldTimeAPI, presented within an immersive, animated cosmic interface.
 
 ### 🚀 LIVE DEMO
-[**Click here to view the Live Demo on Doodax.com**](https://doodax.com)
+[**Click here to view the Live Demo on Doodax.com**](https://doodax.com/tools/cosmic-world-clock-dashboard/index.html)
 
 ## 🌟 Features
 
